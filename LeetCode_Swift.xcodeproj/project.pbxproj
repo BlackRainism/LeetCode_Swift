@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E148CA6D1F3215CB00A3A486 /* AddTwoNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = E148CA6C1F3215CB00A3A486 /* AddTwoNumbers.swift */; };
 		E1F74BAC1F2654B6009BA027 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F74BAB1F2654B6009BA027 /* AppDelegate.swift */; };
 		E1F74BAE1F2654B6009BA027 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F74BAD1F2654B6009BA027 /* ViewController.swift */; };
 		E1F74BB11F2654B6009BA027 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1F74BAF1F2654B6009BA027 /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E148CA6C1F3215CB00A3A486 /* AddTwoNumbers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTwoNumbers.swift; sourceTree = "<group>"; };
 		E1F74BA81F2654B6009BA027 /* LeetCode_Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeetCode_Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1F74BAB1F2654B6009BA027 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E1F74BAD1F2654B6009BA027 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -37,6 +39,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E148CA6B1F32158200A3A486 /* Medium */ = {
+			isa = PBXGroup;
+			children = (
+				E148CA6C1F3215CB00A3A486 /* AddTwoNumbers.swift */,
+			);
+			path = Medium;
+			sourceTree = "<group>";
+		};
 		E1F74B9F1F2654B6009BA027 = {
 			isa = PBXGroup;
 			children = (
@@ -57,6 +67,7 @@
 			isa = PBXGroup;
 			children = (
 				E1F74BBF1F26558F009BA027 /* Easy */,
+				E148CA6B1F32158200A3A486 /* Medium */,
 				E1F74BAB1F2654B6009BA027 /* AppDelegate.swift */,
 				E1F74BAD1F2654B6009BA027 /* ViewController.swift */,
 				E1F74BAF1F2654B6009BA027 /* Main.storyboard */,
@@ -148,6 +159,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E1F74BAE1F2654B6009BA027 /* ViewController.swift in Sources */,
+				E148CA6D1F3215CB00A3A486 /* AddTwoNumbers.swift in Sources */,
 				E1F74BAC1F2654B6009BA027 /* AppDelegate.swift in Sources */,
 				E1F74BC11F26558F009BA027 /* TwoSum.swift in Sources */,
 			);
