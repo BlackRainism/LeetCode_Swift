@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E148CA6D1F3215CB00A3A486 /* AddTwoNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = E148CA6C1F3215CB00A3A486 /* AddTwoNumbers.swift */; };
+		E168D053247231E10059AB9C /* PivotIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = E168D052247231E10059AB9C /* PivotIndex.swift */; };
 		E1F74BAC1F2654B6009BA027 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F74BAB1F2654B6009BA027 /* AppDelegate.swift */; };
 		E1F74BAE1F2654B6009BA027 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F74BAD1F2654B6009BA027 /* ViewController.swift */; };
 		E1F74BB11F2654B6009BA027 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1F74BAF1F2654B6009BA027 /* Main.storyboard */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		E148CA6C1F3215CB00A3A486 /* AddTwoNumbers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTwoNumbers.swift; sourceTree = "<group>"; };
+		E168D052247231E10059AB9C /* PivotIndex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PivotIndex.swift; sourceTree = "<group>"; };
 		E1F74BA81F2654B6009BA027 /* LeetCode_Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeetCode_Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1F74BAB1F2654B6009BA027 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E1F74BAD1F2654B6009BA027 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +49,14 @@
 			path = Medium;
 			sourceTree = "<group>";
 		};
+		E168D0512472318A0059AB9C /* Array */ = {
+			isa = PBXGroup;
+			children = (
+				E168D052247231E10059AB9C /* PivotIndex.swift */,
+			);
+			path = Array;
+			sourceTree = "<group>";
+		};
 		E1F74B9F1F2654B6009BA027 = {
 			isa = PBXGroup;
 			children = (
@@ -66,6 +76,7 @@
 		E1F74BAA1F2654B6009BA027 /* LeetCode_Swift */ = {
 			isa = PBXGroup;
 			children = (
+				E168D0512472318A0059AB9C /* Array */,
 				E1F74BBF1F26558F009BA027 /* Easy */,
 				E148CA6B1F32158200A3A486 /* Medium */,
 				E1F74BAB1F2654B6009BA027 /* AppDelegate.swift */,
@@ -127,6 +138,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -158,6 +170,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E168D053247231E10059AB9C /* PivotIndex.swift in Sources */,
 				E1F74BAE1F2654B6009BA027 /* ViewController.swift in Sources */,
 				E148CA6D1F3215CB00A3A486 /* AddTwoNumbers.swift in Sources */,
 				E1F74BAC1F2654B6009BA027 /* AppDelegate.swift in Sources */,
@@ -290,7 +303,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Rainism.LeetCode-Swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -302,7 +315,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Rainism.LeetCode-Swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
